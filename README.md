@@ -6,6 +6,7 @@ in case of:
 - Wifi disconnection
 - Internet failure
 - Webpage failure
+
 and other problems when you want to show a webpage and can't or won't to give access to the pc
 so if the problem occurs and fixed (like wifi disconnect) 
 it will restart the WiFi and the webpage 
@@ -26,6 +27,7 @@ It can use for:
 
 ## NOTE:
 if you use it is YOUR responsibility!
+
 I am not responsible if it works or not 
 or if it damage you're machine or any other problem!
 
