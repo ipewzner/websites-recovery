@@ -1,5 +1,5 @@
 # Websites recovery after failure
-## made by IPewzner.
+## Made by IPewzner.
 
 This project is for showing websites with recovery after a failure.
 in case of: 
@@ -26,7 +26,7 @@ It can use for:
 - Chromium
 
 ## NOTE:
-if you use it is YOUR responsibility!
+If you use it is YOUR responsibility!
 
 I am not responsible if it works or not 
 or if it damage you're machine or any other problem!
