@@ -1,6 +1,11 @@
 const puppeteer = require('puppeteer');
 const wifi = require('node-wifi');
 
+const timeDelay = 1000 * 60 * 5; // 5 minutes
+const webSite = 'https://www.oref.org.il//12481-he/Pakar.aspx';
+const ssid = '******';
+const password = '********';
+
 (async () => {
     const browser = await puppeteer.launch({
         headless: false,
@@ -14,18 +19,18 @@ const wifi = require('node-wifi');
 
     while (true) {
         let date_ob = new Date();
-        await wifi.connect({ ssid: 'ip1', password: '85208520' }, () => {
+        await wifi.connect({ ssid: ssid, password: password }, () => {
             console.log('Connected in: ' + date_ob.getHours() + ":" + date_ob.getMinutes() + ":" + date_ob.getSeconds());
         });
 
         const page = await browser.newPage();
         try {
-            await page.goto('https://www.oref.org.il//12481-he/Pakar.aspx');
-            await sleep(350000);
+            await page.goto(webSite);
+            await sleep(timeDelay);
             await page.close();
         } catch (e) {
             await page.close();
-            await sleep(30000);
+            await sleep(timeDelay);
         }
         //await browser.close();
     } 
