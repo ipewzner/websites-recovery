@@ -1,7 +1,5 @@
-# -------------------------------
-## Websites recovery after failure
-# made by IPewzner.
-# -------------------------------
+# Websites recovery after failure
+## made by IPewzner.
 
 This project is for showing websites with recovery after a failure.
 in case of: 
@@ -22,14 +20,14 @@ It can use for:
 - Show video clip in loop 
 - Control system (IoT)
 
-# requierment: 
+## requierment: 
 - NodeJS
 - Chromium
 
-# ***************************************************************** 
-# NOTE: if you use it is YOUR responsibility!
-#      I am not responsible if it works or not 
-#      or if it damage you're machine or any other problem!
-# *****************************************************************
+## NOTE:
+if you use it is YOUR responsibility!
+I am not responsible if it works or not 
+or if it damage you're machine or any other problem!
 
-# PS: I added lite version in python without of WiFi reconnect and it needs only python 3.
+## PS: 
+I added lite version in python without of WiFi reconnect and it needs only python 3.
