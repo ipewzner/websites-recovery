@@ -1,7 +1,7 @@
-//-------------------------------
-Websites recovery after failure
-made by IPewzner.
-//-------------------------------
+#-------------------------------
+##Websites recovery after failure
+#made by IPewzner.
+#//-------------------------------
 
 This project is for showing websites with recovery after a failure.
 in case of: 
